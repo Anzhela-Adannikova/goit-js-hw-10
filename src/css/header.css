@@ -13,8 +13,8 @@
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: center;
+  gap: 100px;
 }
 .nav-link {
   position: relative;
@@ -22,6 +22,7 @@
   font-weight: 500;
   letter-spacing: 0.02em;
   transition: 200ms ease-in;
+  text-align: left;
 }
 .nav-link:hover,
 .nav-link:focus {
